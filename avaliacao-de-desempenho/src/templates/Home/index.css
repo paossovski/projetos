@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-home);
+}
+
+.Login-card {
+  max-width: 460px;
+  height: 512px;
+  margin: var(--login-card-margin);
+  margin-top: 100px;
+  background-color: var(--login-card);
+  border: 1px solid var(--login-card-border);
+  border-radius: 8px;
+  box-shadow: 0 24px 48px -24px rgba(0, 0, 0, 0.3);
+}
+
+.Login-header {
+  max-width: 394px;
+  height: 180px;
+  margin: var(--login-card-margin);
+  margin-top: 30px;
+}
+
+.Login-logo-container {
+  width: 64px;
+  height: 64px;
+  margin: var(--login-card-margin);
+  padding-top: 25px;
+}
+
+.Login-logo {
+  border-radius: 3px;
+}
+
+.Login-title {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.Login-input-container {
+  max-width: 394px;
+  height: 40px;
+  margin: var(--login-card-margin);
+  margin-bottom: 20px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.Login-icon-container {
+  width: 40px;
+  height: 40px;
+}
+
+.Login-input {
+  width: 346px;
+  height: 34px;
+  float: right;
+  border: none;
+  padding-top: 5px;
+}
+
+.Login-input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.Login-icon-user {
+  width: 20px;
+  height: 20px; 
+  margin: 10px 15px;
+}
