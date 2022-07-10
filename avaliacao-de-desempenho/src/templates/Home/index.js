@@ -8,23 +8,52 @@ const Login = () => {
     <div className="Login-card">
       <div className="Login-header">
         <div className="Login-logo-container">
-          <img src={icon} alt='' className="Login-logo"/>
+          <img 
+            src={icon} 
+            className="Login-logo"
+            alt='A imagem não pode ser exibida!' 
+          />
         </div>
         <div className="Login-title">Avaliação de Desempenho</div>
       </div>
       <div className="Login-input-container">
-        <input className="Login-input" placeholder="Nome do Usuário">
-        </input>
+        <input 
+          type="text" 
+          className="Login-input" 
+          placeholder="Nome do Usuário" 
+        />
         <div className="Login-icon-container">
-          <img className="Login-icon-user" src={user} alt=""/>
+          <img 
+            className="Login-icon-user" 
+            src={user} 
+            alt="A imagem não pode ser exibida!"
+          />
         </div>
       </div>
       <div className="Login-input-container">
-        <input className="Login-input" placeholder="Senha">
-        </input>
+        <input 
+          type="text"
+          className="Login-input" 
+          placeholder="Senha" 
+        />
         <div className="Login-icon-container">
-          <img className="Login-icon-user" src={senha} alt=""/>
+          <img 
+            className="Login-icon-user" 
+            src={senha} 
+            alt="A imagem não pode ser exibida!"
+          />
         </div>
+      </div>
+      <div className="Login-checkbox-container">
+        <label className="Login-checkbox-label">
+          <input 
+            type="checkbox"
+            className="Login-checkbox"
+          />Lembrar nome do usuário
+        </label>
+      </div>
+      <div className="Login-button-container">
+        <button className="Login-button">Acessar</button>
       </div>
     </div>
   );

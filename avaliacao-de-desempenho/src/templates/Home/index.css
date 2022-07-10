@@ -38,22 +38,23 @@ body {
   color: black;
   font-size: 24px;
   font-weight: 500;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--login-card-font-title);
   text-align: center;
   padding-top: 15px;
 }
 
 .Login-input-container {
-  max-width: 394px;
+  max-width: 390px;
   height: 40px;
   margin: var(--login-card-margin);
   margin-bottom: 20px;
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--login-input-container);
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
 }
 
 .Login-icon-container {
-  width: 40px;
+  width: 38px;
   height: 40px;
 }
 
@@ -63,17 +64,56 @@ body {
   float: right;
   border: none;
   padding-top: 5px;
+  background-color: var(--login-input-container); 
 }
 
 .Login-input::placeholder {
   color: rgba(0, 0, 0, 0.4);
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
 }
 
 .Login-icon-user {
-  width: 20px;
-  height: 20px; 
-  margin: 10px 15px;
+  width: 22px;
+  height: 22px; 
+  margin: 10px 10px;
+}
+
+.Login-checkbox-container {
+  width: 394px;
+  height: 40px;
+  margin: var(--login-card-margin);
+}
+
+.Login-checkbox {
+  width: 17px;
+  height: 17px;
+  float: left;
+  margin-left: 0;
+}
+
+.Login-checkbox-label {
+  font-size: 12px;
+  font-family: var(--login-card-font-title);
+  padding-left: 3px;
+}
+
+.Login-button-container {
+  width: 394px;
+  height: 40px;
+  margin: var(--login-card-margin);
+}
+
+.Login-button {
+  width: 394px;
+  height: 40px;
+  background-color: #006bd8;
+  border: none;
+  margin-top: 10px;
+  color: #fff;
+  font-family: var(--login-card-font-title);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 3px;
 }
