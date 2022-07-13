@@ -1,0 +1,11 @@
+.Home-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+.Home-top-menu {
+  height: 48px;
+  width: 100%;
+  background-color: #006bd8;
+}

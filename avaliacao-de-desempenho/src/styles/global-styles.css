@@ -3,9 +3,7 @@
   --login-card: rgba(255, 255, 255, 0.65);
   --login-card-border: rgba(0, 0, 0, .1);
   --login-input-container: #f9f9f9;
-  
-  --login-card-margin: 0 auto 0 auto;
-
+  --login-card-margin: 0 auto;
   --login-card-font-title: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
